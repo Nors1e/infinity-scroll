@@ -36,3 +36,24 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Image Container */
+.image-container {
+  margin: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Media Query: SmartPhone */
+@media sceen and (max-width: 600px) {
+  h1 {
+    font-size:20px;
+  }
+
+  .large-container {
+    margin:10px;
+  }
+}
